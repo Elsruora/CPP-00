@@ -6,7 +6,7 @@
 /*   By: nchabli <nchabli@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/08 14:56:33 by nchabli           #+#    #+#             */
-/*   Updated: 2022/11/02 20:03:20 by nchabli          ###   ########.fr       */
+/*   Updated: 2022/11/05 20:04:38 by nchabli          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,17 +75,6 @@ void	Contact::set_darkest_secret(std::string input)
 std::string		Contact::get_darkest_secret()
 {	
 	return _darkest_secret;
-}
-
-void	Contact::set_index(int	input)
-{
-	_index = input;
-	
-}
-
-int		Contact::get_index()
-{	
-	return _index;
 }
 
 // void	Contact::add_contact(std::string input)
